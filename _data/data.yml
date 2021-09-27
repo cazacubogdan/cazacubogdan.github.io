@@ -41,25 +41,29 @@ skills:
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+"Sometimes you have to demo a threat to spark a solution" - Barnaby Jack
+
+Experienced Systems Administrator with 10+ years of expertise in design,
+development and maintenance of complex software and management of server
+infrastructures and data center operations across operating system platforms.
+Highly proficient in implementing enterprise solutions for business applications
+in broad scale, web-delivered environments. Determined to deliver best technical
+solutions to meet functional and business requirements. Diligent troubleshooter,
+with strong communication skills and the ability to interact effectively with
+employees and departments various IT environments. Flexible with positive work
+attitude focused on producing results under tight deadlines.
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Senior Security Infrastructure Engineer
+    time: December 2019 - April 2021
+    company: Garanti BBVA Romania
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      Administration of the Forcepoint Solutions (Web Proxy, DLP, Mail Gateway), McAfee IPS/IDS appliances.
+      Deploying and administration of linux web proxies and load balancers, remote gateways(Apache Guacamole), secrets management solution (CyberArk) and identity management solution(Keycloack)
+      Team Manager for the WFH project (ongoing): R&D, proposal, implementation, integration and administration of the solution
     technologies_used: | 
-      Go, Angular, Typescript, C++
+     HAProxy, Apache Guacamole, CyberArk, Keycloack, Nginx, MariaDB, CentOs, Red Hat Enterprise Linux, Active Directory, Forcepoint web proxy, Forcepoint DLP, Forcepoint Mail Gateway, McAfee IPS/IDS, Windows Server 2012
   
   - role: Researcher
     time: 2016-2020
