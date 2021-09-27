@@ -1,44 +1,23 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Hello!</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+---
+layout: default
+---
+<div class="container">
+  {% include header.html %}
+  <div class="container-block">
+    <div class="sidebar">
+      {% include contact.html %}
+      {% include languages.html %}
+      {% include education.html %}
+      {% include skills.html %}
+      {% include fork.html %}
+    </div>
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Bogdan CAZACU</h1>
-						<p>System Administrator &nbsp;&bull;&nbsp; Security Enthusiast &nbsp;&bull;&nbsp; DevOps Beliver</p>
-						<nav>
-							<ul>
-								<li><a href="https://twitter.com/cazacub" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.facebook.com/bogolino86" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="https://www.linkedin.com/in/bogdancazacu/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/cazacubogdan" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="hello@cazacubogdan.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy;<a href="https://secretchip.net">SecretChip Consulting 2021</a>.</span>
-					</footer>
-
-			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
-</html>
+    <div class="main">
+      {% include career-profile.html %}
+      {% include experience.html %}
+      {% include publications.html %}
+      {% include projects.html %}
+      {% include volunteering.html %}
+    </div>
+  </div>
+</div>
