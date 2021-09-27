@@ -1,29 +1,29 @@
-name: John Doe
+name: Bogdan cazacub
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  email: hello@cazacubogdan.com
+  github: cazacubogdan
+  linkedin: bogdancazacu
+  phone: +40756546659
+  gitlab: cazacubogdan
+  twitter: cazacub
 
 languages:
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+#  - idiom: Russian
+#  - idiom: French
 
-education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+#education:
+#  - degree: MSc in Informatics
+#    time: 2014-2016
+#    university: Ionian University
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+#  - degree: BSc in Computer Science
+#    time: 2010-2014
+#    university: Ionian University
 
 skills:
   - category: Backend
